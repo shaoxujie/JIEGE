@@ -6,7 +6,7 @@ USER root
 RUN apk update && apk add --no-cache supervisor wget unzip curl
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-ENV UUID 255a9207-6948-404d-8535-3144f659e85f
+ENV UUID 3f4ad83b-31ee-4c8b-aa62-1d194fd6f3f5
 ENV VMESS_WSPATH /vmess
 ENV VLESS_WSPATH /vless
 
